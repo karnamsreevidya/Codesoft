@@ -1,0 +1,99 @@
+.container{
+    background: #20c7bf87;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+body{
+   
+    background-color: rgb(135, 207, 216);
+    border: 2px;
+
+}
+h1{
+    color: rgb(11, 14, 14);
+    font-size: 52px;
+    text-justify: newspaper;
+    text-align: center;
+}
+.textview{
+    display: inline-block;
+    margin: 2px;
+    width: 260px;
+    height: 42px;
+    font-size: 20px;
+    background-color:white;
+    border-radius: 10px;
+    border: none;
+}
+.equalButton {
+    cursor: pointer;
+    display: inline-block;
+    margin: 2px;
+    width: 60px;
+    height: 91px;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.button{
+    cursor: pointer;
+    display: inline-block;
+    margin: 2px;
+    width: 60px;
+    height: 42px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #FFF;
+    text-shadow: -1px -1px 0px #44006f;
+    background-color:rgb(64, 71, 139);
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #021017;
+    border-left: 2px solid #ef67da;
+    outline: none;
+}
+.equalbutton{
+    border-radius: 10px;
+    color: #FFF;
+    margin: 2px;
+    width: 60px;
+    height: 100px;
+    background-color:rgb(16, 61, 103);
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #AF5700;
+    border-left: 2px solid #AE5700;
+    outline: none;
+}
+.button:active,.allclearButton:active,.equalbutton:active{
+    background-color:tomato;
+    box-shadow: 0 3px #666;
+    transform: rotateY(4px);
+}
+.button:hover,.equalbutton:hover{
+    background-color: rgb(89, 90, 57);
+    box-shadow: 0px 4px 1px #eec691;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #AF5700;
+    border-left: 2px solid #AE5700;
+}
+.allclearButton{
+    border-radius: 10px;
+    color: #FFF;
+    margin: 2px;
+    width: 60px;
+    height: 42px;
+    text-shadow: -1px -1px 0px #44006f;
+    background-color:rgb(21, 81, 137);
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #1992c6;
+    border-left: 2px solid #1d4eb0;
+    outline: none;
+}
